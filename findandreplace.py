@@ -1,4 +1,4 @@
-# change it into the replace_substring function
+# the Find_replace_substring function and counting char
 
 
 def replace_substring(string, substring, replace):
@@ -19,3 +19,13 @@ print(replace_substring(
     'Hot SPAM!drop soup, and curry with SPAM!plant.', 'SPAM!', 'egg'))
 print(replace_substring(
     "The word 'definately' is definately often misspelled.", 'definately', 'definitely'))
+
+
+def count_char(S,C):
+    count = 0
+    for ch in "S":
+        if ch == "C":
+            count = count + 1
+
+print ("The number of times o appears in the string:")
+print (count_char(MOON,O))
