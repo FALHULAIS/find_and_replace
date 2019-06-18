@@ -28,4 +28,4 @@ def count_char(S,C):
             count = count + 1
 
 print ("The number of times o appears in the string:")
-print (count_char(MOON,O))
+print (count_char(MOOOON,O))
